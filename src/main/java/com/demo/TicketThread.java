@@ -10,6 +10,8 @@ public class TicketThread implements Runnable {
     Lock lock = new ReentrantLock();
 
 
+
+
     @Override
     public void run() {
         while (true) {
